@@ -134,6 +134,9 @@ body {
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
+.reg__form .close:hover {
+  opacity: 0.7;
+}
 .reg__form fieldset {
   width: 232px;
   padding: 0;
@@ -167,6 +170,12 @@ body {
   text-align: center;
   cursor: pointer;
   margin: 24px 0 34px;
+}
+.reg__form .reg-btn:hover {
+  background: #27356f;
+}
+.reg__form .reg-btn:active {
+  background: rgba(47, 65, 138, 0.9);
 }
 /* head.less */
 .head {
@@ -242,6 +251,12 @@ body {
   text-align: center;
   cursor: pointer;
   margin: 32px 0 44px;
+}
+.head__btn:hover {
+  background: #27356f;
+}
+.head__btn:active {
+  background: rgba(47, 65, 138, 0.9);
 }
 @media (min-width: 768px) {
   .head__container {
@@ -321,6 +336,12 @@ body {
   color: white;
   font-size: 18px;
   text-decoration: none;
+}
+.menu__item:hover {
+  color: #27356f;
+}
+.menu__item:active {
+  color: rgba(47, 65, 138, 0.9);
 }
 #menu__toggle {
   display: none;
