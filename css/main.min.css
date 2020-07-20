@@ -841,6 +841,9 @@ footer .copyright {
   line-height: 17px;
   color: #BABABA;
 }
+footer a:hover {
+	opacity:0.7;
+}
 @media (min-width: 1140px) {
   footer .footer {
     padding: 45px 0;
